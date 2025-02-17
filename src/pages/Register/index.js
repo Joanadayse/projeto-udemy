@@ -15,13 +15,13 @@ export default function Register() {
     e.preventDefault();
 
     if (email !== "" && password !== "") {
-     await createUserWithEmailAndPassword (auth, email, password)
-     .then(()=>{
- navigate("/admin" , {replace:true})
-     })
-     .cath(()=>{
-      console.log("Erro ao fazer o cadastro!")
-     })
+     await createUserWithEmailAndPassword(auth, email, password)
+       .then(() => {
+         navigate("/admin", { replace: true });
+       })
+       .catch(() => {
+         console.log("Erro ao fazer o cadastro!");
+       });
     } else {
       alert("Preencha todos os campos!");
     }
