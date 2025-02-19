@@ -6,7 +6,7 @@ Este projeto é uma aplicação web de gerenciamento de tarefas, desenvolvida co
 - React
 - Firebase (Auth e Firestore)
 - React Router
-- CSS (ou Tailwind, se aplicável)
+- CSS 
 
 ## ⚙️ Funcionalidades
 - Cadastro e login de usuários (Firebase Authentication)
