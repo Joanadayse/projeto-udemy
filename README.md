@@ -51,3 +51,9 @@ Este projeto é uma aplicação web de gerenciamento de tarefas, desenvolvida co
 
 Acesse a aplicação online: [Clique aqui](https://curso-78fda.web.app/)
 
+#  👨‍💻 Autoras
+
+---
+
+Feito com ❤️ por Joana Dayse ! Projeto realizado no Curso React Js do zero ao avançado na pratica da Udemy.
+
